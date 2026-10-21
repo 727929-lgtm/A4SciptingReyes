@@ -43,12 +43,7 @@ public class ColorChanger : MonoBehaviour
 
             GetComponent<Renderer>().material.color = Color.magenta;
 
-        }
-        if (Input.GetKeyDown(KeyCode.O))
-        {
-
-            GetComponent<Renderer>().material.color = Color.orange;
-
+        
         }
 
 
